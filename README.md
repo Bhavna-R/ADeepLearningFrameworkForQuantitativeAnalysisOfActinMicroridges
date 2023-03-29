@@ -1,4 +1,5 @@
-# ADeepLearningFrameworkForQuantitativeAnalysisOfActinMicroridges
+# A Deep Learning Framework For Quantitative Analysis Of Actin Microridges. Authors:  Rajasekaran Bhavna, Mahendra Sonawane
+
 A Deep Learning Framework For Quantitative Analysis of Actin Microridges. Rajasekaran Bhavna, Mahendra Sonawane
 
 
