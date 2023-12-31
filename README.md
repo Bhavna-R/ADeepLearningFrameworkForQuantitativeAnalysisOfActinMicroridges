@@ -7,3 +7,4 @@ This repository contains the code to reproduce analyses presented in ours manusc
 
 This repository contains code for analyzing microscopy image data as presented in our publication.
 
+Bhavna, R., Sonawane, M. A deep learning framework for quantitative analysis of actin microridges. npj Syst Biol Appl 9, 21 (2023). https://doi.org/10.1038/s41540-023-00276-7
