@@ -83,10 +83,12 @@ for time=1:TotalTime
     freqfiltimg=uint16(freqfiltimg);
 
     amplitudeImage5=imgaussfilt(freqfiltimg,amp5param);
-    imgl=imbinarize(uint16(amplitudeImage5));
-
+    %imgl=imbinarize(uint16(amplitudeImage5));
+    [counts,x] = imhist(uint16(amplitudeImage5),2^16);
+    T = otsuthresh(counts);
+    BW = imbinarize(uint16(amplitudeImage5),T);
     se = strel('disk',clbw);
-    closeBW = imclose(imgl,se);
+    closeBW = imclose(BW,se);
 
     se2 = strel('disk',dlbw);
 
